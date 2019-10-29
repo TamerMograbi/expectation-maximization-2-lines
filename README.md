@@ -1,4 +1,6 @@
 # expectation-maximization on 2 lines
+ ![](coolExample.gif)
+ 
  fitting data to 2 lines using expectation maxmization and weighted least squares.
  Here we assumne that the data is generated from 2 lines and we use expectation maximization to iteratively find these 2 lines.
  the algorithm comprises of 2 steps:
@@ -15,7 +17,5 @@
 in this step we use the weights found in the previous step and using weighted least squares to calculate the best two fitting lines.
 
 the most important part in EM is initialization. if you don't have a good first initialization then it will either not converge or converge to a local min.
-
-10 iteration example:
  
- ![](coolExample.gif)
+
